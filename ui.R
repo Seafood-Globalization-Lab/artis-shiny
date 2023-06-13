@@ -127,7 +127,7 @@ ui <- fluidPage(
                step=0.01,
                round=FALSE)),
         column(9,
-               sankeyNetworkOutput("trade_sankey")
+               plotOutput("trade_sankey")
                )
       )
     )
